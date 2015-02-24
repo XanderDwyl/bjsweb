@@ -1,0 +1,78 @@
+body {
+	background : #f48e1e url("../images/fabric_plaid.png") repeat fixed center;
+}
+
+.navbar-bjs {
+	background-color : #f37123;
+	border-color     : #e7e7e7;
+
+	#notification {
+		height           : 30px;
+		border-bottom    : 1px solid #ffffff;
+		background-color : #1077C0;
+	}
+	.navbar-brand {
+		top      : 0;
+		position : absolute;
+		z-index  : 1;
+	}
+
+	.navbar-right {
+		li > a {
+			color : #ffffff;
+		}
+		li > a:hover {
+			color : #337ab7;
+		}
+	}
+}
+
+.container-fluid {
+	max-width : 1150px;
+}
+
+#slider-container {
+	margin-top    : 80px;
+	height        : 359px;
+	background    : url("../images/mooning.png") repeat fixed center;
+	border-bottom : 1px solid #ffffff;
+
+	div {
+		margin     : 0 auto;
+		max-width  : 1150px;
+		height     : 100%;
+		box-shadow : none;
+		background : transparent;
+	}
+}
+
+.bot-menu {
+	border-radius : 0;
+	border-width  : 1px 0;
+	border-color  : #cfcfcf;
+	background    : #f48e1e url("../images/fabric_plaid.png") repeat fixed center;
+	height        : 100px;
+}
+
+.footer {
+	background : url("../images/mooning.png") repeat fixed center;
+	height     : 200px;
+}
+
+@media (max-width: 767px) {
+	.navbar-right {
+		li:first-child {
+			margin-top : 20px;
+		}
+	}
+
+	.navbar-toggle, .icon-bar {
+		border : 1px solid #ffffff;
+	}
+
+	.container-fluid>.navbar-collapse {
+		border-width : 1px 0;
+		border-width : solid;
+		border-color : #ffffff;
+	}
+}

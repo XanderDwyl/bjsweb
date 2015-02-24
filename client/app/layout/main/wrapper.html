@@ -1,0 +1,12 @@
+<div data-ng-controller="Layout as vm" class="body-wrapper">
+	<header>
+		<ng-include src="'/templates/layout/navbar/top.html'"></ng-include>
+		<ng-include src="'/templates/helper/slider/nivo.html'"></ng-include>
+	</header>
+	<section id="content" class="content container-fluid">
+		<div class="wrapper row">
+			<div class="main" data-ng-view></div>
+		</div>
+	</section>
+</div>
+
